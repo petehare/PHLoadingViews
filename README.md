@@ -14,13 +14,13 @@ This is a selection of simple native loading spinners. I hate animated GIFs beca
 
 There are two types of spinner to choose from, and each can be customized.
 
-PHCircleFadeView uses a "fade" on each individual circle, while the PHCircleRotateView "rotates" the collection of circles as a whole. Each view will fill the frame given to it, or will size itself intrinsically.
+`PHCircleFadeView` uses a "fade" on each individual circle, while the `PHCircleRotateView` "rotates" the collection of circles as a whole. Each view will fill the frame given to it, or will size itself intrinsically.
 
 For each view you can set properties for:
 
-	* The number of circles
-	* The size of the circles
-	* The speed of the spinner
+  * The number of circles
+  * The size of the circles
+  * The speed of the spinner
 
 ## License
 
