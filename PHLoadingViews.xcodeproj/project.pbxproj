@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406D02EA17CEFECE00F1E341 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D02E917CEFECE00F1E341 /* UIKit.framework */; };
+		406D02EC17CEFECE00F1E341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D02EB17CEFECE00F1E341 /* Foundation.framework */; };
+		406D02EE17CEFECE00F1E341 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D02ED17CEFECE00F1E341 /* CoreGraphics.framework */; };
+		406D02F417CEFECE00F1E341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 406D02F217CEFECE00F1E341 /* InfoPlist.strings */; };
+		406D02F617CEFECE00F1E341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D02F517CEFECE00F1E341 /* main.m */; };
+		406D02FA17CEFECE00F1E341 /* PHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D02F917CEFECE00F1E341 /* PHAppDelegate.m */; };
+		406D02FC17CEFECE00F1E341 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D02FB17CEFECE00F1E341 /* Default.png */; };
+		406D02FE17CEFECE00F1E341 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D02FD17CEFECE00F1E341 /* Default@2x.png */; };
+		406D030017CEFECE00F1E341 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 406D02FF17CEFECE00F1E341 /* Default-568h@2x.png */; };
+		406D030817CEFF6400F1E341 /* PHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D030717CEFF6400F1E341 /* PHRootViewController.m */; };
+		406D030B17CEFF7300F1E341 /* PHCircleFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D030A17CEFF7300F1E341 /* PHCircleFadeView.m */; };
+		406D030E17CEFF8100F1E341 /* PHCircleRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D030D17CEFF8100F1E341 /* PHCircleRotateView.m */; };
+		406D031017CF004B00F1E341 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D030F17CF004B00F1E341 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		406D02E617CEFECE00F1E341 /* PHLoadingViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHLoadingViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D02E917CEFECE00F1E341 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		406D02EB17CEFECE00F1E341 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		406D02ED17CEFECE00F1E341 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		406D02F117CEFECE00F1E341 /* PHLoadingViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PHLoadingViews-Info.plist"; sourceTree = "<group>"; };
+		406D02F317CEFECE00F1E341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		406D02F517CEFECE00F1E341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		406D02F717CEFECE00F1E341 /* PHLoadingViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHLoadingViews-Prefix.pch"; sourceTree = "<group>"; };
+		406D02F817CEFECE00F1E341 /* PHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAppDelegate.h; sourceTree = "<group>"; };
+		406D02F917CEFECE00F1E341 /* PHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHAppDelegate.m; sourceTree = "<group>"; };
+		406D02FB17CEFECE00F1E341 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		406D02FD17CEFECE00F1E341 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		406D02FF17CEFECE00F1E341 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		406D030617CEFF6400F1E341 /* PHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHRootViewController.h; sourceTree = "<group>"; };
+		406D030717CEFF6400F1E341 /* PHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHRootViewController.m; sourceTree = "<group>"; };
+		406D030917CEFF7300F1E341 /* PHCircleFadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCircleFadeView.h; sourceTree = "<group>"; };
+		406D030A17CEFF7300F1E341 /* PHCircleFadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCircleFadeView.m; sourceTree = "<group>"; };
+		406D030C17CEFF8100F1E341 /* PHCircleRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCircleRotateView.h; sourceTree = "<group>"; };
+		406D030D17CEFF8100F1E341 /* PHCircleRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCircleRotateView.m; sourceTree = "<group>"; };
+		406D030F17CF004B00F1E341 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406D02E317CEFECE00F1E341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D031017CF004B00F1E341 /* QuartzCore.framework in Frameworks */,
+				406D02EA17CEFECE00F1E341 /* UIKit.framework in Frameworks */,
+				406D02EC17CEFECE00F1E341 /* Foundation.framework in Frameworks */,
+				406D02EE17CEFECE00F1E341 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406D02DD17CEFECE00F1E341 = {
+			isa = PBXGroup;
+			children = (
+				406D02EF17CEFECE00F1E341 /* PHLoadingViews */,
+				406D02E817CEFECE00F1E341 /* Frameworks */,
+				406D02E717CEFECE00F1E341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		406D02E717CEFECE00F1E341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406D02E617CEFECE00F1E341 /* PHLoadingViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406D02E817CEFECE00F1E341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406D030F17CF004B00F1E341 /* QuartzCore.framework */,
+				406D02E917CEFECE00F1E341 /* UIKit.framework */,
+				406D02EB17CEFECE00F1E341 /* Foundation.framework */,
+				406D02ED17CEFECE00F1E341 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		406D02EF17CEFECE00F1E341 /* PHLoadingViews */ = {
+			isa = PBXGroup;
+			children = (
+				406D02F817CEFECE00F1E341 /* PHAppDelegate.h */,
+				406D02F917CEFECE00F1E341 /* PHAppDelegate.m */,
+				406D030617CEFF6400F1E341 /* PHRootViewController.h */,
+				406D030717CEFF6400F1E341 /* PHRootViewController.m */,
+				406D030917CEFF7300F1E341 /* PHCircleFadeView.h */,
+				406D030A17CEFF7300F1E341 /* PHCircleFadeView.m */,
+				406D030C17CEFF8100F1E341 /* PHCircleRotateView.h */,
+				406D030D17CEFF8100F1E341 /* PHCircleRotateView.m */,
+				406D02F017CEFECE00F1E341 /* Supporting Files */,
+			);
+			path = PHLoadingViews;
+			sourceTree = "<group>";
+		};
+		406D02F017CEFECE00F1E341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				406D02F117CEFECE00F1E341 /* PHLoadingViews-Info.plist */,
+				406D02F217CEFECE00F1E341 /* InfoPlist.strings */,
+				406D02F517CEFECE00F1E341 /* main.m */,
+				406D02F717CEFECE00F1E341 /* PHLoadingViews-Prefix.pch */,
+				406D02FB17CEFECE00F1E341 /* Default.png */,
+				406D02FD17CEFECE00F1E341 /* Default@2x.png */,
+				406D02FF17CEFECE00F1E341 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406D02E517CEFECE00F1E341 /* PHLoadingViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D030317CEFECE00F1E341 /* Build configuration list for PBXNativeTarget "PHLoadingViews" */;
+			buildPhases = (
+				406D02E217CEFECE00F1E341 /* Sources */,
+				406D02E317CEFECE00F1E341 /* Frameworks */,
+				406D02E417CEFECE00F1E341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHLoadingViews;
+			productName = PHLoadingViews;
+			productReference = 406D02E617CEFECE00F1E341 /* PHLoadingViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406D02DE17CEFECE00F1E341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = PJHare;
+			};
+			buildConfigurationList = 406D02E117CEFECE00F1E341 /* Build configuration list for PBXProject "PHLoadingViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 406D02DD17CEFECE00F1E341;
+			productRefGroup = 406D02E717CEFECE00F1E341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406D02E517CEFECE00F1E341 /* PHLoadingViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406D02E417CEFECE00F1E341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D02F417CEFECE00F1E341 /* InfoPlist.strings in Resources */,
+				406D02FC17CEFECE00F1E341 /* Default.png in Resources */,
+				406D02FE17CEFECE00F1E341 /* Default@2x.png in Resources */,
+				406D030017CEFECE00F1E341 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406D02E217CEFECE00F1E341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D02F617CEFECE00F1E341 /* main.m in Sources */,
+				406D02FA17CEFECE00F1E341 /* PHAppDelegate.m in Sources */,
+				406D030817CEFF6400F1E341 /* PHRootViewController.m in Sources */,
+				406D030B17CEFF7300F1E341 /* PHCircleFadeView.m in Sources */,
+				406D030E17CEFF8100F1E341 /* PHCircleRotateView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		406D02F217CEFECE00F1E341 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406D02F317CEFECE00F1E341 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		406D030117CEFECE00F1E341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		406D030217CEFECE00F1E341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406D030417CEFECE00F1E341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHLoadingViews/PHLoadingViews-Prefix.pch";
+				INFOPLIST_FILE = "PHLoadingViews/PHLoadingViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		406D030517CEFECE00F1E341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHLoadingViews/PHLoadingViews-Prefix.pch";
+				INFOPLIST_FILE = "PHLoadingViews/PHLoadingViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406D02E117CEFECE00F1E341 /* Build configuration list for PBXProject "PHLoadingViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D030117CEFECE00F1E341 /* Debug */,
+				406D030217CEFECE00F1E341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D030317CEFECE00F1E341 /* Build configuration list for PBXNativeTarget "PHLoadingViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D030417CEFECE00F1E341 /* Debug */,
+				406D030517CEFECE00F1E341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406D02DE17CEFECE00F1E341 /* Project object */;
+}
