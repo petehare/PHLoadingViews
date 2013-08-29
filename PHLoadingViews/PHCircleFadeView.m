@@ -43,6 +43,16 @@
 
 @implementation PHCircleFadeView
 
+- (id)initWithCoder:(NSCoder *)aDecoder;
+{
+  self = [super initWithCoder:aDecoder];
+  if (self)
+  {
+    [self setup];
+  }
+  return self;
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
   self = [super initWithFrame:frame];
